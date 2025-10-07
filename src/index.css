@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #18002e;
+  color: #ffffff;
+}
+
+/* Navbar Button Base */
+.nav-btn {
+  @apply w-14 h-14 flex items-center justify-center 
+         bg-purple-400 text-black rounded-full shadow-lg 
+         transition-colors;
+}
+
+/* Custom hover animation */
+.nav-btn:hover {
+  animation: colorLoop 2s infinite;
+}
+
+@keyframes colorLoop {
+  0%   { background-color: rgb(192 132 252); color: black; }  /* purple-400 */
+  33%  { background-color: rgb(251 191 36); color: black; }   /* amber-400 */
+  66%  { background-color: white; color: black; }
+  100% { background-color: rgb(192 132 252); color: black; }  /* back to purple */
+}
