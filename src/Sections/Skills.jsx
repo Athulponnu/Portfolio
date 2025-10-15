@@ -2,6 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Code2, Cpu, Layout, Server } from "lucide-react";
+import cvGif from "../assets/cv.gif";
+
 
 export default function Skills() {
   const cards = [
@@ -67,7 +69,7 @@ export default function Skills() {
       gradient: "from-violet-800 to-purple-700",
       skills: [
         { name: "Neural Networks", logo: "https://img.icons8.com/fluency/48/artificial-intelligence.png" },
-        { name: "Computer Vision", logo: "https://img.icons8.com/fluency/48/face-recognition.png" },
+        { name: "Computer Vision", logo: cvGif },
         { name: "NLP", logo: "https://img.icons8.com/fluency/48/chatgpt.png" },
         { name: "Generative AI", logo: "https://img.icons8.com/color/48/openai.png" },
         { name: "Deep Learning", logo: "https://img.icons8.com/fluency/48/machine-learning.png" },
