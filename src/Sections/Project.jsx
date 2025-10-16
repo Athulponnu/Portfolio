@@ -5,6 +5,7 @@ import Python from "../assets/Python.png";
 import apk from "../assets/apk.jpg";
 import Digit from "../assets/Digit.png";
 import port from "../assets/port.png";
+import tft from "../assets/tft.png";
 
 export default function Projects() {
   const projects = [
@@ -39,7 +40,7 @@ export default function Projects() {
     {
       title: "Theft Detection",
       description: "YOLO, IoT Integration, Computer Vision",
-      img: port,
+      img: tft,
       color: "from-red-800 to-purple-600",
       link: "https://github.com/Athulponnu/Theft_Detection",
     },

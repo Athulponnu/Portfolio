@@ -3,6 +3,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Code2, Cpu, Layout, Server } from "lucide-react";
 import cvGif from "../assets/cv.gif";
+import genGif from "../assets/gen.gif";
+import wowGif from "../assets/wow.gif";
 
 
 export default function Skills() {
@@ -21,7 +23,7 @@ export default function Skills() {
         { name: "CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
         { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
         { name: "React", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-        { name: "Tailwind CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" },
+        { name: "Tailwind CSS",logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"}
       ],
     },
     {
@@ -36,7 +38,7 @@ export default function Skills() {
       skills: [
         { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
         { name: "Node.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
-        { name: "Express", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
+        { name: "PostgreSQL",logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
         { name: "SQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
         { name: "REST APIs", logo: "https://img.icons8.com/fluency/48/api.png" },
       ],
@@ -71,8 +73,8 @@ export default function Skills() {
         { name: "Neural Networks", logo: "https://img.icons8.com/fluency/48/artificial-intelligence.png" },
         { name: "Computer Vision", logo: cvGif },
         { name: "NLP", logo: "https://img.icons8.com/fluency/48/chatgpt.png" },
-        { name: "Generative AI", logo: "https://img.icons8.com/color/48/openai.png" },
-        { name: "Deep Learning", logo: "https://img.icons8.com/fluency/48/machine-learning.png" },
+        { name: "Generative AI", logo: genGif },
+        { name: "Deep Learning", logo: wowGif },
       ],
     },
   ];
