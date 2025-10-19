@@ -233,7 +233,7 @@ export default function App() {
 
                 {/* Outro */}
                 <h1 className="text-7xl mask-b-from-neutral-400 text-center mt-20 text-purple-500 fade">
-                  How Could you miss me!!
+                  How Could you miss me!!!
                 </h1>
                 <div className="fade">
                   <p className="text-3xl text-center mt-5 mx-50 text-purple-200">
